@@ -128,12 +128,12 @@
 
     "redandbluefi/wp-native-dashboard": "*",
     "redandblue/wordpress-tools": "dev-master",
-    
+
     "devgeniem/wp-sanitize-accented-uploads": "^1.2",
-    
+
     "aucor/polylang-copy-content": ">=0.1.1",
     "aucor/dynamic-mo-loader": ">=1.1.1",
-    
+
     "wpackagist-plugin/user-switching": "^1.0",
     "wpackagist-plugin/polylang": ">=2.1",
     "wpackagist-plugin/what-the-file": "^1.5",
@@ -145,7 +145,7 @@
     "wpackagist-plugin/enhanced-media-library": "^2.3",
     "wpackagist-plugin/global-meta-box-order": "^1.0",
     "wpackagist-plugin/post-expirator": "^2.1",
-    "wpackagist-plugin/duplicate-post": "^3.0",
+    "wpackagist-plugin/duplicate-post": "^3.0"
   },
   "extra": {
     "installer-paths": {
