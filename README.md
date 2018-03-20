@@ -1,4 +1,8 @@
--![Seravo.com](https://seravo.com/wp-content/themes/seravo/images/seravo-banner-808x300.png)
+![redandblue.fi](https://media.giphy.com/media/5XPb0FvIqylqg/giphy.gif)
+
+# redandblue skeletor
+
+Duplicated from seravo/wordpress, More instructions coming up ..
 
 # Seravo WordPress
 [![Build Status](https://travis-ci.org/Seravo/wordpress.svg?branch=master)](https://travis-ci.org/Seravo/wordpress)

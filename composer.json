@@ -6,6 +6,31 @@
   "homepage": "https://seravo.com/",
   "authors": [
     {
+      "name": "Jari Savolainen",
+      "email": "jari@redandblue.fi",
+      "homepage": "https://github.com/orgs/redandbluefi/people/JariSavolainen"
+    },
+    {
+      "name": "Tiia Nyholm",
+      "email": "tiia@redandblue.fi",
+      "homepage": "https://github.com/orgs/redandbluefi/people/T0kya"
+    },
+    {
+      "name": "Hannu Kärkkäinen",
+      "email": "hannu@redandblue.fi",
+      "homepage": "https://github.com/orgs/redandbluefi/people/Hellenic"
+    },
+    {
+      "name": "Eemeli Makkonen",
+      "email": "eemeli@redandblue.fi",
+      "homepage": "https://github.com/orgs/redandbluefi/people/eemeeli"
+    },
+    {
+      "name": "Onni Hakala",
+      "email": "onni@seravo.fi",
+      "homepage": "https://github.com/onnimonni"
+    },
+    {
       "name": "Antti Kuosmanen",
       "email": "antti@seravo.fi",
       "homepage": "https://github.com/anttiviljami"
@@ -14,15 +39,10 @@
       "name": "Otto Kekäläinen",
       "email": "otto@seravo.fi",
       "homepage": "https://github.com/ottok"
-    },
-    {
-      "name": "Onni Hakala",
-      "email": "onni@seravo.fi",
-      "homepage": "https://github.com/onnimonni"
     }
   ],
   "keywords": [
-    "wordpress", "composer", "wp", "wp-palvelu", "seravo"
+    "wordpress", "composer", "wp", "wp-palvelu","redandblue" , "seravo"
   ],
   "config": {
     "preferred-install": "dist"
@@ -32,11 +52,14 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "WordPress\\Installer::symlinkWPContent"
+      "WordPress\\Installer::symlinkWPContent" // ,
+      // "@buildTheme"
     ],
     "post-update-cmd": [
-      "WordPress\\Installer::symlinkWPContent"
-    ]
+      "WordPress\\Installer::symlinkWPContent" // ,
+      // "@buildTheme"
+    ],
+    // "buildTheme": "cd htdocs/wp-content/themes/theme-skeleton; npm install; npm run build"
   },
   "repositories": [
     {
@@ -46,6 +69,46 @@
     {
       "type": "composer",
       "url": "https://wp-languages.github.io"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "aucor/polylang-copy-content",
+        "version": "0.1.0",
+        "type": "wordpress-muplugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/aucor/polylang-copy-content/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "redandbluefi/wp-native-dashboard",
+        "version": "1.3.13",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/redandbluefi/wp-native-dashboard/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/redandbluefi/wordpress-tools.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.6.7",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=b3JkZXJfaWQ9NjU3NTd8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTEwLTA4IDA2OjQxOjUz"
+        }
+      }
     }
   ],
   "require": {
@@ -61,10 +124,28 @@
 
     "seravo/seravo-plugin": ">=1.4.0",
 
-    "wpackagist-plugin/auto-post-thumbnail": "*",
-    "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
 
-    "wpackagist-theme/twentyseventeen": "*"
+    "redandbluefi/wp-native-dashboard": "*",
+    "redandblue/wordpress-tools": "dev-master",
+    
+    "devgeniem/wp-sanitize-accented-uploads": "^1.2",
+    
+    "aucor/polylang-copy-content": ">=0.1.1",
+    "aucor/dynamic-mo-loader": ">=1.1.1",
+    
+    "wpackagist-plugin/user-switching": "^1.0",
+    "wpackagist-plugin/polylang": ">=2.1",
+    "wpackagist-plugin/what-the-file": "^1.5",
+    "wpackagist-plugin/autodescription": "^2.6",
+    "wpackagist-plugin/categories-images": "^2.5",
+    "wpackagist-plugin/rich-text-tags": "^1.8",
+    "wpackagist-plugin/imsanity": "^2.3",
+    "wpackagist-plugin/adminimize": "^1.10",
+    "wpackagist-plugin/enhanced-media-library": "^2.3",
+    "wpackagist-plugin/global-meta-box-order": "^1.0",
+    "wpackagist-plugin/post-expirator": "^2.1",
+    "wpackagist-plugin/duplicate-post": "^3.0",
   },
   "extra": {
     "installer-paths": {
