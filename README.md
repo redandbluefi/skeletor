@@ -14,6 +14,7 @@ Duplicated from seravo/wordpress, More instructions coming up ..
 - mv config-sample.yaml config.yaml
 - mv theme-info-sample.sh to theme-info.sh
     - Add the correct project filenames
+- chmod 0775 theme-info.sh to make it executable
 
 #### Example from theme-info bash script that is executed on vagrant up / composer update
 - When running for the first time it will clone the DESTSITE repository to the DESTDIR location.
