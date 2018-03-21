@@ -52,14 +52,14 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "WordPress\\Installer::symlinkWPContent" // ,
-      // "@buildTheme"
+      "WordPress\\Installer::symlinkWPContent",
+      "@buildTheme"
     ],
     "post-update-cmd": [
-      "WordPress\\Installer::symlinkWPContent" // ,
-      // "@buildTheme"
+      "WordPress\\Installer::symlinkWPContent",
+      "@buildTheme"
     ],
-    // "buildTheme": "cd htdocs/wp-content/themes/theme-skeleton; npm install; npm run build"
+    "buildTheme": "sh theme-info.sh"
   },
   "repositories": [
     {
