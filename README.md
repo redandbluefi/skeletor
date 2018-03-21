@@ -15,6 +15,7 @@ Duplicated from seravo/wordpress, More instructions coming up ..
 - mv theme-info-sample.sh to theme-info.sh
     - Add the correct project filenames
 - chmod 0775 theme-info.sh to make it executable
+- nano vagrant-up-customizer.sh and paste the text below to it (Change variables to correct project)
 
 #### Example from theme-info bash script that is executed on vagrant up / composer update
 - When running for the first time it will clone the DESTSITE repository to the DESTDIR location.
@@ -26,7 +27,7 @@ Duplicated from seravo/wordpress, More instructions coming up ..
 
 # Credentials
 DESTDIR=htdocs/wp-content/themes
-DESTSITE=theme-name
+DESTSITE=your-theme-name
 GITURL=https://github.com/redandbluefi
 
 if [ -e $DESTDIR/$DESTSITE ]
@@ -40,6 +41,7 @@ else
     git clone $GITURL/$DESTSITE;
     cd $DESTSITE; npm install; npm run build
 fi
+
 
 ```  
 
