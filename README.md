@@ -17,7 +17,8 @@ Duplicated from seravo/wordpress, More instructions coming up ..
 - ``cp theme-info-sample.sh to theme-info.sh``
 - Add the correct project filenames to variables
 - ``chmod 0775 theme-info.sh to make it executable``
-- ``nano vagrant-up-customizer.sh`` and paste the text below to it (Change variables to correct project)
+- ``cp vagrant-up-customizer-sample.sh to vagrant-up-customizer.sh``
+- Change DESTSITE to correct theme / git repo
 
 #### Example from vagrant-up-customizer.sh bash script that is executed on vagrant up / composer update
 - When running for the first time it will clone the DESTSITE repository to the DESTDIR location.
