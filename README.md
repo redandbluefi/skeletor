@@ -12,7 +12,8 @@ Duplicated from seravo/wordpress, More instructions coming up ..
 - https://seravo.com/docs/development/how-to-install/
 
 
-- ``cp config-sample.yaml config.yaml``
+- ``cp config-sample.yml config.yml``
+- Add correct project name to config file
 - ``cp theme-info-sample.sh to theme-info.sh``
 - Add the correct project filenames to variables
 - ``chmod 0775 theme-info.sh to make it executable``
