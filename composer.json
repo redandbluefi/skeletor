@@ -145,7 +145,8 @@
     "wpackagist-plugin/enhanced-media-library": "^2.3",
     "wpackagist-plugin/global-meta-box-order": "^1.0",
     "wpackagist-plugin/post-expirator": "^2.1",
-    "wpackagist-plugin/duplicate-post": "^3.0"
+    "wpackagist-plugin/duplicate-post": "^3.0",
+    "wpackagist-plugin/relevanssi": "^4.0.6"
   },
   "extra": {
     "installer-paths": {
