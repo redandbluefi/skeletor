@@ -109,6 +109,22 @@
           "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=b3JkZXJfaWQ9NjU3NTd8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTEwLTA4IDA2OjQxOjUz"
         }
       }
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/digitoimistodude/dude-twitter-feed.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/digitoimistodude/dude-insta-feed.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/digitoimistodude/dude-facebook-feed.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/redandbluefi/redandblue-combine-feeds.git"
     }
   ],
   "require": {
@@ -125,7 +141,12 @@
     "seravo/seravo-plugin": ">=1.4.0",
 
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    
+    "digitoimistodude/dude-twitter-feed": "dev-master",
+    "digitoimistodude/dude-insta-feed": "dev-master",
+    "digitoimistodude/dude-facebook-feed":"dev-master",
 
+    "redandbluefi/redandblue-combine-feeds":"dev-master",
     "redandbluefi/wp-native-dashboard": "*",
     "redandblue/wordpress-tools": "dev-master",
 
