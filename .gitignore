@@ -57,4 +57,3 @@ composer.lock
 
 # Config files, changes on every install, copied from sample files
 config.yml
-vagrant-up-customizer.sh
