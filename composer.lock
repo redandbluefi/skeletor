@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "27310d81ec03a4c93600f7f13e919a10",
-    "content-hash": "857d731b917237b43473a0b260b4a10f",
+    "hash": "dfc62511a5366aac39a4eac1d206c260",
+    "content-hash": "2c0ce32da7031b16454ea262d37b86bf",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1012,7 +1012,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/redandbluefi/redandblue-user-roles.git",
-                "reference": "9a410cfd75c7287d56e4c938dc7d689f3e3c5483"
+                "reference": "536e72c2a28565048b11479dbaa62468c12437de"
             },
             "type": "wordpress-plugin",
             "license": [
@@ -1031,7 +1031,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2018-04-17 09:12:44"
+            "time": "2018-04-17 11:40:30"
         },
         {
             "name": "redandbluefi/wp-native-dashboard",
@@ -1262,26 +1262,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/global-meta-box-order/"
-        },
-        {
-            "name": "wpackagist-plugin/polylang",
-            "version": "2.3.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/polylang/",
-                "reference": "tags/2.3.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/polylang.2.3.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/polylang/"
         },
         {
             "name": "wpackagist-plugin/post-expirator",
