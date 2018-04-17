@@ -52,9 +52,6 @@ myrecording
 # OSX Desktop Services Store files.
 .DS_Store
 
-# composer.lock file
-composer.lock
-
 # Config files, changes on every install, copied from sample files
 config.yml
 theme-info.sh
