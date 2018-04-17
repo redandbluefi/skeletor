@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5bf1adf7dc2a9e38ba1fdb5495e79571",
-    "content-hash": "befc1a0426d1fe53f123f03f45ce665f",
+    "hash": "27310d81ec03a4c93600f7f13e919a10",
+    "content-hash": "857d731b917237b43473a0b260b4a10f",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1007,6 +1007,33 @@
             "time": "2018-04-13 12:15:46"
         },
         {
+            "name": "redandbluefi/redandblue-user-roles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/redandbluefi/redandblue-user-roles.git",
+                "reference": "9a410cfd75c7287d56e4c938dc7d689f3e3c5483"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jari Savolainen",
+                    "email": "jari@redandblue.fi",
+                    "homepage": "https://www.redandblue.fi"
+                }
+            ],
+            "description": "A Lightweight WordPress plugin that adds a Content Manager role to wp-admin",
+            "homepage": "https://github.com/redandbluefi/redandblue-user-roles",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2018-04-17 09:12:44"
+        },
+        {
             "name": "redandbluefi/wp-native-dashboard",
             "version": "1.3.13",
             "dist": {
@@ -1117,6 +1144,26 @@
             "time": "2014-10-16 14:50:21"
         },
         {
+            "name": "wpackagist-plugin/adminimize",
+            "version": "1.11.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/adminimize/",
+                "reference": "tags/1.11.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/adminimize.1.11.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/adminimize/"
+        },
+        {
             "name": "wpackagist-plugin/autodescription",
             "version": "2.9.4",
             "source": {
@@ -1217,26 +1264,6 @@
             "homepage": "https://wordpress.org/plugins/global-meta-box-order/"
         },
         {
-            "name": "wpackagist-plugin/imsanity",
-            "version": "2.3.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/imsanity/",
-                "reference": "tags/2.3.10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/imsanity.2.3.10.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/imsanity/"
-        },
-        {
             "name": "wpackagist-plugin/polylang",
             "version": "2.3.4",
             "source": {
@@ -1317,26 +1344,6 @@
             "homepage": "https://wordpress.org/plugins/rich-text-tags/"
         },
         {
-            "name": "wpackagist-plugin/user-role-editor",
-            "version": "1.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/user-role-editor/",
-                "reference": "tags/1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-role-editor.1.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/user-role-editor/"
-        },
-        {
             "name": "wpackagist-plugin/user-switching",
             "version": "1.3.0",
             "source": {
@@ -1385,6 +1392,7 @@
         "digitoimistodude/dude-insta-feed": 20,
         "digitoimistodude/dude-facebook-feed": 20,
         "redandbluefi/redandblue-combine-feeds": 20,
+        "redandbluefi/redandblue-user-roles": 20,
         "redandblue/wordpress-tools": 20
     },
     "prefer-stable": false,
