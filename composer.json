@@ -129,6 +129,10 @@
     {
       "type": "git",
       "url": "https://github.com/redandbluefi/redandblue-user-roles.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/redandbluefi/redandblue-theme-help.git"
     }
   ],
   "require": {
@@ -152,6 +156,7 @@
 
     "redandbluefi/redandblue-combine-feeds":"dev-master",
     "redandbluefi/redandblue-user-roles":"dev-master",
+    "redandbluefi/redandblue-theme-help":"dev-master",
     "redandbluefi/wp-native-dashboard": "*",
     "redandblue/wordpress-tools": "dev-master",
 

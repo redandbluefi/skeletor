@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dfc62511a5366aac39a4eac1d206c260",
-    "content-hash": "2c0ce32da7031b16454ea262d37b86bf",
+    "hash": "892695f62e532f2c76beedac70c1116c",
+    "content-hash": "212a9a8d432f3388f1a12cbd8ab13b13",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1007,12 +1007,39 @@
             "time": "2018-04-13 12:15:46"
         },
         {
+            "name": "redandbluefi/redandblue-theme-help",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/redandbluefi/redandblue-theme-help.git",
+                "reference": "8f80506d681d586511dcf6de2bc018973c91cb0c"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jari Savolainen",
+                    "email": "jari@redandblue.fi",
+                    "homepage": "https://www.redandblue.fi"
+                }
+            ],
+            "description": "A Lightweight WordPress plugin that adds a Content Manager role to wp-admin",
+            "homepage": "https://github.com/redandbluefi/redandblue-theme-help",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2018-04-19 12:32:16"
+        },
+        {
             "name": "redandbluefi/redandblue-user-roles",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/redandbluefi/redandblue-user-roles.git",
-                "reference": "536e72c2a28565048b11479dbaa62468c12437de"
+                "reference": "3a7d9edb121854699f2111f459535c006de3b936"
             },
             "type": "wordpress-plugin",
             "license": [
@@ -1031,7 +1058,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2018-04-17 11:40:30"
+            "time": "2018-04-18 07:23:10"
         },
         {
             "name": "redandbluefi/wp-native-dashboard",
@@ -1373,6 +1400,7 @@
         "digitoimistodude/dude-facebook-feed": 20,
         "redandbluefi/redandblue-combine-feeds": 20,
         "redandbluefi/redandblue-user-roles": 20,
+        "redandbluefi/redandblue-theme-help": 20,
         "redandblue/wordpress-tools": 20
     },
     "prefer-stable": false,
