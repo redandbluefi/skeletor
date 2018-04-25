@@ -14,7 +14,7 @@ sql-dump-*.sql
 
 # WordPress content directories usually populated by composer
 # If you create custom plugins, force add it to git so that it's tracked
-# If you create custom themese, they are automatically tracked in git
+# If you create custom themes, they are automatically tracked in git
 htdocs/wp-content/plugins/*
 !htdocs/wp-content/plugins/.gitkeep
 htdocs/wp-content/mu-plugins/*
@@ -54,5 +54,3 @@ myrecording
 
 # Config files, changes on every install, copied from sample files
 config.yml
-theme-info.sh
-vagrant-up-customizer.sh

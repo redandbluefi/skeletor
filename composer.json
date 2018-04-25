@@ -24,25 +24,10 @@
       "name": "Eemeli Makkonen",
       "email": "eemeli@redandblue.fi",
       "homepage": "https://github.com/orgs/redandbluefi/people/eemeeli"
-    },
-    {
-      "name": "Onni Hakala",
-      "email": "onni@seravo.fi",
-      "homepage": "https://github.com/onnimonni"
-    },
-    {
-      "name": "Antti Kuosmanen",
-      "email": "antti@seravo.fi",
-      "homepage": "https://github.com/anttiviljami"
-    },
-    {
-      "name": "Otto Kekäläinen",
-      "email": "otto@seravo.fi",
-      "homepage": "https://github.com/ottok"
     }
   ],
   "keywords": [
-    "wordpress", "composer", "wp", "wp-palvelu","redandblue" , "seravo"
+    "wordpress", "composer", "wp", "wp-palvelu", "redandblue", "seravo"
   ],
   "config": {
     "preferred-install": "dist"
@@ -51,15 +36,15 @@
     "psr-0": {"WordPress\\Installer": "scripts"}
   },
   "scripts": {
+    "test": [
+      "./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/ExampleTest"
+    ],
     "post-install-cmd": [
-      "WordPress\\Installer::symlinkWPContent",
-      "@buildTheme"
+      "WordPress\\Installer::symlinkWPContent"
     ],
     "post-update-cmd": [
-      "WordPress\\Installer::symlinkWPContent",
-      "@buildTheme"
-    ],
-    "buildTheme": "sh theme-info.sh"
+      "WordPress\\Installer::symlinkWPContent"
+    ]
   },
   "repositories": [
     {
@@ -149,7 +134,7 @@
     "seravo/seravo-plugin": ">=1.4.0",
 
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
-    
+
     "digitoimistodude/dude-twitter-feed": "dev-master",
     "digitoimistodude/dude-insta-feed": "dev-master",
     "digitoimistodude/dude-facebook-feed":"dev-master",
@@ -176,6 +161,10 @@
     "wpackagist-plugin/post-expirator": "^2.1",
     "wpackagist-plugin/duplicate-post": "^3.0",
     "wpackagist-plugin/relevanssi": "^4.0.6"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*",
+    "phpunit/phpunit": "^7"
   },
   "extra": {
     "installer-paths": {
