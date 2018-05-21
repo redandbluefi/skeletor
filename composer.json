@@ -118,6 +118,10 @@
     {
       "type": "git",
       "url": "https://github.com/redandbluefi/redandblue-theme-help.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/redandbluefi/redandblue-subpage-menu.git"
     }
   ],
   "require": {
@@ -142,6 +146,7 @@
     "redandbluefi/redandblue-combine-feeds":"dev-master",
     "redandbluefi/redandblue-user-roles":"dev-master",
     "redandbluefi/redandblue-theme-help":"dev-master",
+    "redandbluefi/redandblue-subpage-menu":"dev-master",
     "redandbluefi/wp-native-dashboard": "*",
     "redandblue/wordpress-tools": "dev-master",
 
@@ -159,6 +164,7 @@
     "wpackagist-plugin/enhanced-media-library": "^2.3",
     "wpackagist-plugin/global-meta-box-order": "^1.0",
     "wpackagist-plugin/post-expirator": "^2.1",
+    "wpackagist-plugin/polylang": "^2.1",
     "wpackagist-plugin/duplicate-post": "^3.0",
     "wpackagist-plugin/relevanssi": "^4.0.6"
   },
