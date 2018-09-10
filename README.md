@@ -1,3 +1,7 @@
+# :warning: Deprecated
+## skeletor hasn't been updated for a long time and basically it's just a clone of Seravo's WordPress base.
+## Prefer to use Seravo's WordPress base instead of this. Even better, use 'theme-skeletor' with Docker, if you can.
+
 ![redandblue.fi](https://media.giphy.com/media/5XPb0FvIqylqg/giphy.gif)
 
 # redandblue skeletor
