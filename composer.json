@@ -27,13 +27,20 @@
     }
   ],
   "keywords": [
-    "wordpress", "composer", "wp", "wp-palvelu", "redandblue", "seravo"
+    "wordpress",
+    "composer",
+    "wp",
+    "wp-palvelu",
+    "redandblue",
+    "seravo"
   ],
   "config": {
     "preferred-install": "dist"
   },
   "autoload": {
-    "psr-0": {"WordPress\\Installer": "scripts"}
+    "psr-0": {
+      "WordPress\\Installer": "scripts"
+    }
   },
   "scripts": {
     "test": [
@@ -131,30 +138,22 @@
     "composer/installers": "v1.0.12",
     "koodimonni/composer-dropin-installer": ">=0.2.4",
     "vlucas/phpdotenv": "1.0.9",
-
     "koodimonni-language/fi": "*",
     "koodimonni-language/sv_SE": "*",
-
     "seravo/seravo-plugin": ">=1.4.0",
-
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
-
     "digitoimistodude/dude-twitter-feed": "dev-master",
     "digitoimistodude/dude-insta-feed": "dev-master",
-    "digitoimistodude/dude-facebook-feed":"dev-master",
-
-    "redandbluefi/redandblue-combine-feeds":"dev-master",
-    "redandbluefi/redandblue-user-roles":"dev-master",
-    "redandbluefi/redandblue-theme-help":"dev-master",
-    "redandbluefi/redandblue-subpage-menu":"dev-master",
+    "digitoimistodude/dude-facebook-feed": "dev-master",
+    "redandbluefi/redandblue-combine-feeds": "dev-master",
+    "redandbluefi/redandblue-user-roles": "dev-master",
+    "redandbluefi/redandblue-theme-help": "dev-master",
+    "redandbluefi/redandblue-subpage-menu": "dev-master",
     "redandbluefi/wp-native-dashboard": "*",
     "redandblue/wordpress-tools": "dev-master",
-
     "devgeniem/wp-sanitize-accented-uploads": "^1.2",
-
     "aucor/polylang-copy-content": ">=0.1.1",
     "aucor/dynamic-mo-loader": ">=1.1.1",
-
     "wpackagist-plugin/user-switching": "^1.0",
     "wpackagist-plugin/what-the-file": "^1.5",
     "wpackagist-plugin/autodescription": "^2.6",
@@ -165,8 +164,7 @@
     "wpackagist-plugin/global-meta-box-order": "^1.0",
     "wpackagist-plugin/post-expirator": "^2.1",
     "wpackagist-plugin/polylang": "^2.1",
-    "wpackagist-plugin/duplicate-post": "^3.0",
-    "wpackagist-plugin/relevanssi": "^4.0.6"
+    "wpackagist-plugin/duplicate-post": "^3.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "3.*",
@@ -174,15 +172,29 @@
   },
   "extra": {
     "installer-paths": {
-      "htdocs/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-      "htdocs/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "htdocs/wp-content/themes/{$name}": ["type:wordpress-theme"]
+      "htdocs/wp-content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "htdocs/wp-content/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "htdocs/wp-content/themes/{$name}": [
+        "type:wordpress-theme"
+      ]
     },
     "dropin-paths": {
-      "htdocs/wp-content/languages/": ["vendor:koodimonni-language"],
-      "htdocs/wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
-      "htdocs/wp-content/languages/themes/": ["vendor:koodimonni-theme-language"],
-      ".": ["type:seravo-wordpress-dropin"]
+      "htdocs/wp-content/languages/": [
+        "vendor:koodimonni-language"
+      ],
+      "htdocs/wp-content/languages/plugins/": [
+        "vendor:koodimonni-plugin-language"
+      ],
+      "htdocs/wp-content/languages/themes/": [
+        "vendor:koodimonni-theme-language"
+      ],
+      ".": [
+        "type:seravo-wordpress-dropin"
+      ]
     },
     "wordpress-install-dir": "htdocs/wordpress"
   }
